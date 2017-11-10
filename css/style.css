@@ -31,4 +31,37 @@ body {
   color: white;
   text-align : center;
   font-family: "Impact", sans-serif;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+@media (max-width: 1000px) {
+  .landing {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .landing {
+    background-image: url("../images/largesmoke.jpeg");
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .row {
+    display: block;
+}
+
+    .col-3 {
+      width: 100%;
+    }
+  }
 }
