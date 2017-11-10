@@ -4,7 +4,31 @@
   padding: 0;
 }
 
-
 html {
-  background: grey;
+font-family: "Helvetica"
+}
+body {
+  padding-top: 50px;
+}
+.top-nav {
+  background: black;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.landing {
+  background-image: url("../images/smoke.jpg");
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align : center;
+  font-family: "Impact", sans-serif;
 }
