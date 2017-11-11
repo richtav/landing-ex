@@ -8,15 +8,27 @@ html {
 font-family: "Helvetica"
 }
 body {
-  padding-top: 50px;
+
 }
-.top-nav {
+.top-nav{
+  display: flex;
+  justify-content: space-between;
   background: black;
-  height: 50px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  padding: 5px 5px;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+  .main-nav-list {
+    display:flex;
+    list-style: none;
+  }
+
+  .main-nav-list li {
+  margin:0 10px;
 }
 
 
@@ -24,7 +36,7 @@ body {
   background-image: url("../images/smoke.jpg");
   background-size: cover;
   background-position: center;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 10px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,5 +75,13 @@ body {
     .col-3 {
       width: 100%;
     }
+
   }
+
+
+.styled {
+  margin-left:25%;
+  width: 50%;
+  height: 100px;
+  padding: 50px;
 }
